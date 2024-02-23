@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-family: 'Big Shoulders Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #F2F2F2;
+
+}
+
+p {
+
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.75;
+}
+
+button {
+
+    background: #F2F2F2;
+    border-radius: 25px;
+    border: none;
+    padding: 12px;
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    width: 146px;
+    /* identical to box height, or 167% */
+
+
+
+}
+
+.contenedor-principal {
+    display: flex;
+    height: 500px;
+    width: 920px;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor-secundario1 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 25px;
+    padding: 48px;
+    background: #E28625;
+    border-radius: 8px 0px 0px 8px;
+    height: 500px;
+    width: 307px;
+}
+
+.contenedor-secundario1 button {
+    color: #E28625;
+}
+
+.contenedor-secundario2 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 25px;
+    padding: 48px;
+    height: 500px;
+    width: 307px;
+    background: #006971;
+    border-radius: 0px 0px 0px 0px;
+}
+
+.contenedor-secundario2 button {
+    color: #006971;
+}
+
+.contenedor-secundario3 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 25px;
+    padding: 48px;
+    height: 500px;
+    width: 307px;
+    background: #004140;
+    border-radius: 0px 8px 8px 0px;
+}
+
+.contenedor-secundario3 button {
+    color: #004140;
+}
